@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  background: url("bg.jpg");
+  min-height: 100vh;
+  background-size: 100vw 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#scoreBox{
+  position: absolute;
+  top: 9px;
+  right: 200px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#highscoreBox{
+  position: absolute;
+  top: 40px;
+  right: 150px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#board {
+  background: linear-gradient(rgb(148, 252, 148), rgb(253, 253, 91));
+  width: 90vmin;
+  height: 92vmin;
+  border: 2px solid black;
+  display: grid;
+  grid-template-rows: repeat(18, 1fr);
+  grid-template-columns: repeat(18, 1fr);
+}
+
+.head {
+  background: linear-gradient(rgb(252, 95, 95), rgb(250, 250, 107));
+  transform: scale(1.02);
+  border: 2px solid rgb(125, 0, 125);
+  border-radius: 5px;
+}
+
+.snake {
+   background-color: rgb(125, 0, 125);
+   border: .25vwin solid white;
+   border-radius: 5px;
+}
+
+.food {
+  background: linear-gradient(rgb(248, 76, 76), rgb(125, 0, 125));
+  border: .25vwin solid black;
+  border-radius: 10px;
+}

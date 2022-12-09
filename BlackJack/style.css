@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-family: Ubuntu;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5);
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 50%;
+    height: 90%;
+    background: url("bg2")  rgba(0, 0, 0, .5);
+    background-size: cover;
+    flex-direction: column;
+    border-radius: 40px 0;
+    gap: 2rem;
+}
+
+.head{
+    font-size: 2rem;
+    font-family: Poppins;
+    font-weight: 900;
+    background-color: rgba(0, 0, 0, .5);
+    padding: .75rem;
+    border-radius: 25px 0;
+    border: 1px dashed white;
+}
+
+.mess{
+    font-size: 1.5rem;
+    font-weight: 700;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, .5);
+    padding: .25rem;
+    border-radius: 5px;
+}
+
+.cards{
+    width: 70%;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, .5);
+    padding: .5rem;
+    border-radius: 20px;
+
+}
+
+.btn-container{
+    gap: 1.5rem;
+}
+
+.btn{
+    width: 175px;
+    height: 50px;
+    font-family: Roboto;
+    background-color: rgba(0, 0, 0, .5);
+    border: none;
+    box-shadow: 0 0 4px 4px rgba(255, 255, 255, .25);
+    border-radius: 50px;
+    letter-spacing: 4px;
+}
+
+.btn:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, .5);
+}
+
+.status{
+    width: 50%;
+    padding: 1rem;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: .75rem;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}

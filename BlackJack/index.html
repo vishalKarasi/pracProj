@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Jack Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body class="flex">
+    <div class="flex container">
+      <div class="flex head">Black Jack Game</div>
+      <div class="flex mess">Press Start to play the game</div>
+      <div class="flex cards">CARDS:<span class="flex text">1</span></div>
+      <div class="flex">SUM: <span id="sum"></span></div>
+      <div class="flex btn-container">
+        <button class="btn" onclick="startGame()">Start</button>
+        <button class="btn" onclick="getNewCard()">New card</button>
+      </div>
+      <div class="flex status">
+        <div>Player Name: <span id="name">Vishal</span></div>
+        <div>Coins: <span id="chips">1000</span></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
